@@ -1,6 +1,14 @@
 {
     "name": "grunt-global-wrap",
-    "keywords": ["browserify", "commonjs", "modules", "global", "browsers", "build", "gruntplugin"],
+    "keywords": [
+        "browserify",
+        "commonjs",
+        "modules",
+        "global",
+        "browsers",
+        "build",
+        "gruntplugin"
+    ],
     "description": "Grunt task to expose your CommonJS-based libraries as a global.",
     "version": "1.1.0",
     "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
@@ -15,7 +23,7 @@
         "lint": "jshint tasks"
     },
     "peerDependencies": {
-        "grunt": "~0.4.0"
+        "grunt": ">=0.4.0"
     },
     "dependencies": {
         "global-wrap": ">=1.2.0 <2"
